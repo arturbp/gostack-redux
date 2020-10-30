@@ -1,4 +1,4 @@
-import { ActionTypes, IProduct } from "./types";
+import { ActionTypes, IProduct } from './types'
 
 export function addProductToCartRequest(product: IProduct) {
   return {

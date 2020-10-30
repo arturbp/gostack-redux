@@ -1,6 +1,6 @@
-import { Reducer } from "redux"
+import { Reducer } from 'redux'
 import produce from 'immer'
-import { ActionTypes, ICartState } from "./types"
+import { ActionTypes, ICartState } from './types'
 
 const INITIAL_STATE: ICartState = {
   items: [],
